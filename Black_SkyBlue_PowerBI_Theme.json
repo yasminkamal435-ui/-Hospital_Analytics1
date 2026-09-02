@@ -1,0 +1,90 @@
+{
+  "name": "Black Sky Blue Hospital Theme",
+  "dataColors": [
+    "#0EA5E9",
+    "#38BDF8",
+    "#7DD3FC",
+    "#0369A1",
+    "#BAE6FD",
+    "#0C4A6E",
+    "#5FB8E0",
+    "#0284C7"
+  ],
+  "background": "#05070C",
+  "foreground": "#F1F7FB",
+  "tableAccent": "#0EA5E9",
+  "good": "#38BDF8",
+  "neutral": "#3F5866",
+  "bad": "#7DD3FC",
+  "maximum": "#38BDF8",
+  "center": "#0EA5E9",
+  "minimum": "#0C4A6E",
+  "null": "#3F5866",
+  "positive": "#38BDF8",
+  "negative": "#0C4A6E",
+  "hyperlink": "#38BDF8",
+  "visitedHyperlink": "#0284C7",
+  "disabledVisual": "#16202C",
+  "tableAccentCell": "#0EA5E9",
+  "textClasses": {
+    "callout": { "fontSize": 32, "color": "#F1F7FB" },
+    "title": { "fontSize": 12, "color": "#7FA3B8", "fontFace": "Segoe UI Semibold" },
+    "header": { "fontSize": 13, "color": "#F1F7FB", "fontFace": "Segoe UI Semibold" },
+    "label": { "fontSize": 10, "color": "#7FA3B8" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#05070C" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#16202C" } }, "radius": 12 }
+        ],
+        "outspacePane": [
+          { "backgroundColor": { "solid": { "color": "#05070C" } } }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          { "color": "#F1F7FB", "fontSize": 28, "fontFamily": "Segoe UI Semibold" }
+        ],
+        "categoryLabels": [
+          { "color": "#7FA3B8", "fontSize": 12 }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#080B10" } } }
+        ],
+        "items": [
+          {
+            "fontColor": "#7FA3B8",
+            "background": { "solid": { "color": "#05070C" } },
+            "selectedColor": { "solid": { "color": "#000000" } },
+            "hoverColor": { "solid": { "color": "#0C1620" } }
+          }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": { "dataPoint": [ { "defaultColor": { "solid": { "color": "#0EA5E9" } } } ] }
+    },
+    "barChart": {
+      "*": { "dataPoint": [ { "defaultColor": { "solid": { "color": "#38BDF8" } } } ] }
+    },
+    "lineChart": {
+      "*": { "dataPoint": [ { "defaultColor": { "solid": { "color": "#38BDF8" } } } ] }
+    },
+    "pieChart": {
+      "*": { "dataPoint": [ { "defaultColor": { "solid": { "color": "#0EA5E9" } } } ] }
+    },
+    "donutChart": {
+      "*": { "dataPoint": [ { "defaultColor": { "solid": { "color": "#0EA5E9" } } } ] }
+    }
+  }
+}
